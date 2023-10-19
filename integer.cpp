@@ -23,9 +23,9 @@ int main() {
         std::cout << "\nYour integer is 0.";
     } else if (userInt > 0) {
         // display that the user integer is positive
-        std::cout << userInt << "\n is positive.";
+        std::cout << "\n" << userInt << "\n is positive.";
     } else {
         // display the users integer is negative
-        std::cout << userInt << "\n is negative.";
+        std::cout << "\n" << userInt << " is negative.";
     }
 }
